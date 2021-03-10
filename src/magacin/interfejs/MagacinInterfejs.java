@@ -3,6 +3,7 @@ package magacin.interfejs;
 import artikli.Artikal;
 
 public interface MagacinInterfejs {
+	//interfejs MagacinInterfejs
 	
 	public void dodajArtikal(Artikal artikal);
 	

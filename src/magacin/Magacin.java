@@ -7,6 +7,8 @@ import magacin.interfejs.MagacinInterfejs;
 
 public class Magacin implements MagacinInterfejs {
 
+	//klasa Magacin
+	
 	private LinkedList<Artikal> artikli=new LinkedList<Artikal>();
 	
 	@Override

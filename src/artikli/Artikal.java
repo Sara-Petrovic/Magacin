@@ -1,6 +1,8 @@
 package artikli;
 
 public class Artikal {
+	//klasa Artikal
+	
 	private int sifra;
 	private String naziv;
 	private String opis;
