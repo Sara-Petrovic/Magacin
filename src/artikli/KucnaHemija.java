@@ -10,6 +10,9 @@ public class KucnaHemija extends Artikal{
 	}
 
 	public void setRokTrajanja(Date rokTrajanja) {
+		if(rokTrajanja==null) {
+			throw new RuntimeException("Rok trajanja ne sme biti null.");
+		}
 		this.rokTrajanja = rokTrajanja;
 	}
 	
