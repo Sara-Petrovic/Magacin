@@ -33,14 +33,13 @@ public class Magacin implements MagacinInterfejs {
 				}
 			}
 		}
-
 	}
 
 	@Override
 	public Artikal pronadjiArtikal(int sifra) {
-		for(Artikal a:artikli) {
-			if(a.getSifra()==sifra) {
-				return a;
+		for(Artikal artikal:artikli) {
+			if(artikal.getSifra()==sifra) {
+				return artikal;
 			}
 		}
 		return null;
